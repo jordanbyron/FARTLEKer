@@ -1,0 +1,12 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no")
+
+  %body
+    %form{action: '/start', method: 'post'}
+      %input{type: 'submit', value: 'Start'}
+    %form{action: '/stop', method: 'post'}
+      %input{type: 'submit', value: 'Stop'}
