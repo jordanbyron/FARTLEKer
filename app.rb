@@ -2,6 +2,7 @@ require 'bundler/setup'
 require 'dotenv'
 require 'sinatra'
 require 'prowl'
+require 'haml'
 
 Dotenv.load
 
@@ -16,8 +17,6 @@ end
 post '/start' do
   @@thread = Thread.new do
     loop do
-      puts "Start"
-      puts ENV['PROWL_API_KEY']
       Prowl.add(
         :apikey => ENV['PROWL_API_KEY'],
         :application => "Fartleker",
