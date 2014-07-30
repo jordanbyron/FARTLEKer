@@ -1,8 +1,9 @@
 FARTLEKer
 =========
 
-Sinatra app that sends prowl messages to your phone for FARTLEK training runs. I
-threw this together before a run one night so YMMV. Right now it is only
+Sinatra app that sends prowl messages to your phone for fartlek training runs. I
+threw this together before a run one night so YMMV. I wanted something that
+wouldn't interrupt my music or training app and JustWorked:tm:. Right now it is only
 configured to do continuous 4 min fast / 1 min slow intervals.
 
 ## WTF Mate?
